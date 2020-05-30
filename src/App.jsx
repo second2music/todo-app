@@ -32,7 +32,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <h1>ToDoApp</h1>
+        <h1>ToDoリスト</h1>
         <form>
           <input
             type="text"
