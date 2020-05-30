@@ -33,12 +33,14 @@
       "last 1 safari version"
     ]
   }
-  //...
-"homepage": "http://username.github.io/react-pages"
-
-"scripts": {
-  //...
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d build"
 }
+{
+  ...,
+  "scripts": {
+    ...,
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  ...,
+  "homepage": "https://second2music.github.io/todo-app/"
 }
